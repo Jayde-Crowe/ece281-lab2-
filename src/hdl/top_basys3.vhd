@@ -88,10 +88,6 @@ port(
 );
 end component sevenSegDecoder;
 
-
-  
-
-
   -- create wire to connect button to 7SD enable (active-low)
   
   signal w_7SD_EN_n : std_logic := '0';
